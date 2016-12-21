@@ -34,7 +34,7 @@ options, if this sort of brevity is desired.
 
 package Data::Inspect;
 
-our $VERSION = '0.04';
+our $VERSION = '0.05';
 
 use strict;
 use warnings;
@@ -410,6 +410,8 @@ http://www.ruby-doc.org/core/
 
 =head1 CHANGES
 
+  - 0.05 Fix deprecated regexp in test (thanks Jim Keenan!)
+  
   - 0.04 Fixed test case 7 to work with Perl 5.11.5
 
   - 0.03 Fixed documentation and tests further.
